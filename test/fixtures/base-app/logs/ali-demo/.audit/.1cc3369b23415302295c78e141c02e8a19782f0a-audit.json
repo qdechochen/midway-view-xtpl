@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 7
+  },
+  "auditLog": "/Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/logs/ali-demo/.audit/.1cc3369b23415302295c78e141c02e8a19782f0a-audit.json",
+  "files": [
+    {
+      "date": 1704997032356,
+      "name": "/Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/logs/ali-demo/midway-app.log.2024-01-12",
+      "hash": "c33df01973c94ddac78482fad8b24117"
+    }
+  ],
+  "hashType": "md5"
+}

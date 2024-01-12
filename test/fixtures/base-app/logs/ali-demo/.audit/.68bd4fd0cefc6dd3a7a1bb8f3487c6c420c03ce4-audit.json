@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 7
+  },
+  "auditLog": "/Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/logs/ali-demo/.audit/.68bd4fd0cefc6dd3a7a1bb8f3487c6c420c03ce4-audit.json",
+  "files": [
+    {
+      "date": 1704997032355,
+      "name": "/Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/logs/ali-demo/common-error.log.2024-01-12",
+      "hash": "a730665afdb9f07958068ab0e02621c9"
+    }
+  ],
+  "hashType": "md5"
+}

@@ -1,0 +1,44 @@
+2024-01-12 02:17:12.371 ERROR 65481 [-/::ffff:127.0.0.1/-/5ms GET /locals] AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.getViewEngine (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:59:9)
+    at ContextView.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:44:33)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/common/webGenerator.js:43:26
+    at async bodyParser (/Users/echo.chen/projects/cms/view-xtpl/node_modules/koa-bodyparser/index.js:78:5)
+    at async session (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:277:40
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:271:24
+    at async midwayRootMiddleware (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/koa/dist/framework.js:100:13)
+2024-01-12 02:18:06.168 ERROR 65585 [-/::ffff:127.0.0.1/-/5ms GET /locals] AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.getViewEngine (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:59:9)
+    at ContextView.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:44:33)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/common/webGenerator.js:43:26
+    at async bodyParser (/Users/echo.chen/projects/cms/view-xtpl/node_modules/koa-bodyparser/index.js:78:5)
+    at async session (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:277:40
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:271:24
+    at async midwayRootMiddleware (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/koa/dist/framework.js:100:13)
+2024-01-12 02:19:38.360 ERROR 65677 [-/::ffff:127.0.0.1/-/15ms GET /locals] TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+    at maybeCallback (node:fs:187:3)
+    at Object.readFile (node:fs:390:14)
+    at XtplEngine.loader (/Users/echo.chen/projects/cms/view-xtpl/src/xtpl.ts:35:8)
+    at Object.load (/Users/echo.chen/projects/cms/view-xtpl/src/xtpl.ts:68:39)
+    at XTemplate.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/xtemplate-runtime/dist-node/index.js:1096:21)
+    at XTemplate.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/xtemplate/dist-node/index.js:66:48)
+    at XtplEngine.render (/Users/echo.chen/projects/cms/view-xtpl/src/xtpl.ts:82:21)
+    at XtplView.render (/Users/echo.chen/projects/cms/view-xtpl/src/view.ts:17:28)
+    at ContextView.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:45:27)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/common/webGenerator.js:43:26
+    at async bodyParser (/Users/echo.chen/projects/cms/view-xtpl/node_modules/koa-bodyparser/index.js:78:5)
+    at async session (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:277:40
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:271:24
+    at async midwayRootMiddleware (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/koa/dist/framework.js:100:13)
+2024-01-12 13:45:06.639 ERROR 70668 [-/::ffff:127.0.0.1/-/7ms GET /locals] AssertionError [ERR_ASSERTION]: Can't find locals.xtpl from /Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/view
+    at ViewManager.resolve (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/viewManager.js:78:9)
+    at async ContextView.render (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/view/dist/contextView.js:26:26)
+    at async HomeController.render (/Users/echo.chen/projects/cms/view-xtpl/test/fixtures/base-app/src/controller/home.ts:8:12)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/common/webGenerator.js:43:26
+    at async bodyParser (/Users/echo.chen/projects/cms/view-xtpl/node_modules/koa-bodyparser/index.js:78:5)
+    at async session (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:277:40
+    at async /Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/core/dist/baseFramework.js:271:24
+    at async midwayRootMiddleware (/Users/echo.chen/projects/cms/view-xtpl/node_modules/@midwayjs/koa/dist/framework.js:100:13)
