@@ -23,7 +23,6 @@ class XtplEngine {
             pathName = path.join(path.dirname(parentPath), originalName);
             tpl.name = pathName;
         }
-        console.log("path:::", pathName);
         const template = tpl.root;
         const rootConfig = template.config;
         const cache = rootConfig.cache;
