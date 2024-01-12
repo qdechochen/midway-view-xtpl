@@ -1,6 +1,6 @@
 {
   "name": "midwayjs-view-xtpl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Midway Component for xtemplate render",
   "main": "dist/index.js",
   "typings": "index.d.ts",
