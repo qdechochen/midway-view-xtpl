@@ -31,7 +31,6 @@ class XtplEngine {
         if (cache && (cached = this.fnCache.peek(pathName))) {
             return callback(null, cached);
         }
-        debugger;
         fs.readFile(pathName, { encoding: "utf-8" }, (err, data) => {
             let content = data;
             // if (Buffer.isEncoding(rootConfig.encoding)) {
