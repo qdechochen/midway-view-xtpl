@@ -1,5 +1,5 @@
 {
-  "name": "@midwayjs/view-xtpl",
+  "name": "midwayjs-view-xtpl",
   "version": "0.0.1",
   "description": "Midway Component for xtemplate render",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
     "xtpl",
     "xtemplate"
   ],
-  "author": "",
+  "author": "Echo Chen <qdechochen@gmail.com>",
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts",
@@ -47,5 +47,9 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qdechochen/midway-view-xtpl"
   }
 }
